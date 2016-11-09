@@ -1,0 +1,5 @@
+# Created by .ignore support plugin (hsz.mobi)
+
+dest/static/*.css
+dest/static/*.css.map
+dest/static/*.min.js

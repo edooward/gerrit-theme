@@ -1,0 +1,69 @@
+@import "../../bootstrap/partials/variables";
+
+#gerrit_topmenu {
+	display: none !important;
+}
+
+.com-google-gerrit-client-change-CommitBox_BinderImpl_GenCss_style-text {
+	white-space: pre-line !important;
+}
+
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-sectionHeader {
+	height: 30px !important;
+
+	.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-headerButtons {
+		height: 27px !important;
+	}
+}
+
+.menuBarUserNamePanel {
+	padding: 20px 0;
+	&:focus {
+		outline: none;
+	}
+}
+
+.menuBarUserNameFocusPanel {
+	display: block !important;
+	font-weight: normal !important;
+	outline: none;
+}
+
+.searchTextBox {
+	width: 200px !important;
+}
+
+.navbar {
+	.gwt-InlineLabel {
+		display: inline-block;
+		width: 0;
+		height: 0;
+		margin-left: 2px;
+		vertical-align: middle;
+		border-top: $caret-width-base dashed;
+		border-top: $caret-width-base solid \9
+	; // IE8
+		border-right: $caret-width-base solid transparent;
+		border-left: $caret-width-base solid transparent;
+	}
+}
+
+.menuBarUserName {
+	font-weight: 300 !important;
+}
+
+.linkMenuItemNotLast {
+	border-right: none !important;
+}
+
+.menuItem {
+	&.activeRow {
+		background: #c0c0c0 !important;
+	}
+}
+
+.menuScreenMenuBar {
+	.menuItem.activeRow {
+		@extend .menuItem.activeRow;
+	}
+}
